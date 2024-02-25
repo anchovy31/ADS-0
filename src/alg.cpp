@@ -2,14 +2,14 @@
 
 int gcd(int a, int b) {
         // поместить сюда текст реализации алгоритма (на С++)
- while (a != 0 && b != 0){
+  while (a != 0 && b != 0) {
     if (a > b)
      a = a - b;
-    else 
+    else
      b = b - a;
- }
+  }
     if (a != 0)
      return a;
-    else 
-     return b;	
+    else
+     return b;
 }
